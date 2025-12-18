@@ -1,0 +1,71 @@
+.body {
+   border:3px solid black;
+    width:400px;
+    height:500px;
+    background-image: url(image/buildings.png);
+    margin-left:500px;
+    margin-top:100px;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+    color:white;
+    border-radius:20px;
+    text-align:center;
+    background-position:center;
+    background-size:cover;
+   overflow: hidden;
+   box-shadow:5px 5px 5px 5px black;
+   object-fit:cover;
+  
+   backdrop-filter:brightness(40%);
+    
+}
+
+.heading{
+    line-height:50px;
+    margin-bottom:60px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:normal;
+    padding:40px;
+ 
+}
+.h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom:10px;
+    margin-right:90px;
+}
+
+.input {
+   background-color: rgba(255, 255, 255,0.3);  
+   line-height:50%;
+   border-radius:50px;
+   display:flex;
+   flex-direction:column;
+   gap:5px;
+   width:250px;
+   position:fixed;
+   margin-left:40px;
+}
+button{
+    line-height:150%;
+    background-color:rgb(92, 92, 155);
+    border-radius:50px;
+    font-size:15px;
+    text-transform:uppercase;
+    width:200px;
+    color:white;
+    margin-top:40px;
+    
+    
+}
+.label{
+    padding:40px;
+    margin-right:200px;
+    font-family:OCR A Std,monospace;
+    font-size:14px;
+    letter-spacing: 2px;
+}
+.button:hover{
+    cursor:pointer;
+    background-color:rgb(153, 153, 252);
+}
